@@ -9,6 +9,57 @@ body {
 	width: 1250px;
 }
 
-h4 {
+h4,h1,h3{
 	color: white;
+}
+	
+.top_tittle {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 32px;
+	padding-top: 20px;
+	}
+
+
+.top_story {
+	height: 697px;
+	width: 1250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center
+}
+
+.todays_mission {
+	font-size: 28px;
+}
+
+.top_img {
+	width: 915px;
+	height: 360px;
+}
+
+.mission_intro {
+	font-size: 24px;
+}
+
+.mission_intro_div {
+	width: 915px;
+	height: 50px;
+}
+
+.fa {
+	color: white;
+}
+
+.space {
+	width: 1250px;
+	height: 50px;
+	color: black;
+}
+
+.bottom_story {
+	height: 697px;
+	width: 1250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center
 }
