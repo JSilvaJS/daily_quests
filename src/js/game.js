@@ -13,7 +13,8 @@
 			})
 
 			return ` 
-			<h4>${story.message}</h4>
+			<h4 class="bot_font">${story.message}</h4>
+			<div>${story.image}</div>
 			<ul>${buttons.join('')}</ul>
 			`
 		}
